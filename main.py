@@ -5,7 +5,7 @@ import time
 import asyncio
 
 client: TikTokLiveClient = TikTokLiveClient(
-    unique_id="ballmenn", enable_detailed_gifts=True
+    unique_id="USER_ID", enable_detailed_gifts=True
 )
 
 @client.on("like")
